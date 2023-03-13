@@ -26,7 +26,6 @@ void secundomer() {
     }
     FILE *flog;
     flog = fopen("result.txt", "w");
-    rewind(flog);
     fprintf(flog, "%s\t%s\t%s\t%s\t%s\t%s\t%s\n", "size","countSort","quickSort","mergeSort",
                                                                         "bubbleSort","insertSort","gnomeSort");
     while (size <= 10000000) {
